@@ -1,31 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myntra Clone</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-       <div class="logo">
-        <img src="myntra-brand-logooooo.png">
-        <div class="men">MEN</div>
-        <div class="women">WOMEN</div>
-        <div class="kids">KIDS</div>
-        <div class="homeliving">HOME & LIVING</div>
-        <div class="beauty">BEAUTY</div>
-        <div class="studio">STUDIO</div>
-       </div>
-    </header>
-    <main><div class="navbar"></div>
-        <div class="category_heading"></div>
-        <div class="category_items">  </div></main>
-<footer>
-    
-</footer>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Myntra Logo">
+    </div>
+    <nav class="menu">
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">Kids</a>
+      <a href="#">Home & Living</a>
+      <a href="#">Beauty</a>
+    </nav>
+    <div class="search">
+      <input type="text" placeholder="Search for products, brands and more">
+    </div>
+    <div class="icons">
+      <span>👤</span>
+      <span>❤️</span>
+      <span>🛒</span>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <img src="assets/banner.jpg" alt="Banner">
+  </section>
+
+  <!-- Products -->
+  <section class="products">
+    <h2>Best of Clothing</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="assets/product1.jpg" alt="Product">
+        <h3>Men's T-Shirt</h3>
+        <p>₹499 <span class="old-price">₹999</span> <span class="discount">50% OFF</span></p>
+      </div>
+      <div class="product-card">
+        <img src="assets/product2.jpg" alt="Product">
+        <h3>Women's Dress</h3>
+        <p>₹799 <span class="old-price">₹1599</span> <span class="discount">50% OFF</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Myntra Clone | Made with ❤️ using HTML, CSS, JS</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
